@@ -17,7 +17,7 @@ function App() {
 
     try {
       const res = await fetch(
-        "https://kiemtracheban-fastapibackend.vercel.app/api/compare",
+        "https://kiemtracheban-fastapibackend.onrender.com/api/compare",
         {
           method: "POST",
           body: formData,
